@@ -1,0 +1,76 @@
+.screens {
+  width: 100%;
+  margin: 100px 0;
+
+  .container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 32px;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 1512px;
+    transition: all 0.2s ease-in-out;
+    background-color: #171717;
+    padding: 60px;
+
+    @media (max-width: 1512px) {
+      max-width: 1280px;
+    }
+
+    @media (max-width: 1280px) {
+      max-width: 1024px;
+    }
+
+    @media (max-width: 1024px) {
+      max-width: 992px;
+    }
+
+    @media (max-width: 992px) {
+      max-width: 768px;
+    }
+
+    @media (max-width: 768px) {
+      max-width: 576px;
+    }
+
+    @media (max-width: 576px) {
+      max-width: 100%;
+      padding: 0px 20px;
+    }
+
+    .screensContent {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+
+      .title {
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 72px;
+        letter-spacing: -0.02em;
+        color: #ffffff;
+      }
+    }
+
+    .slider {
+      width: 100%;
+
+      .swiper {
+        width: 100%;
+      }
+
+      .slide {
+        width: 350px;
+      }
+
+      .image {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}

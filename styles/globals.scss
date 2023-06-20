@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100vw;
+  color: #ffffff;
+}
+
+body {
+  background: #000000;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.swiper-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 0px !important;
+}
+
+.swiper-pagination-bullet {
+  width: 10px !important;
+  height: 10px !important;
+  opacity: 1 !important;
+  background: #ffffff !important;
+}
+
+.swiper-pagination-bullet-active {
+  width: 20px !important;
+  height: 20px !important;
+  opacity: 1 !important;
+  background: #d22f27 !important;
+}

@@ -1,0 +1,106 @@
+.team {
+  width: 100%;
+  margin: 100px 0;
+
+  .container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 32px;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 1512px;
+    transition: all 0.2s ease-in-out;
+
+    @media (max-width: 1512px) {
+      max-width: 1280px;
+    }
+
+    @media (max-width: 1280px) {
+      max-width: 1024px;
+    }
+
+    @media (max-width: 1024px) {
+      max-width: 992px;
+    }
+
+    @media (max-width: 992px) {
+      max-width: 768px;
+    }
+
+    @media (max-width: 768px) {
+      max-width: 576px;
+    }
+
+    @media (max-width: 576px) {
+      max-width: 100%;
+      padding: 0px 20px;
+    }
+
+    .teamContent {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+
+      .title {
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 72px;
+        letter-spacing: -0.02em;
+        color: #ffffff;
+      }
+    }
+
+    .cardContainer {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: center;
+      gap: 64px;
+      width: 100%;
+
+      .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+
+        .cardImg {
+          height: 240px;
+          width: 240px;
+          border-radius: 50%;
+          border: 2px solid #d22f27;
+          padding: 10px;
+
+          img {
+            height: 100%;
+            width: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+          }
+        }
+
+        .cardName {
+          font-family: "DM Sans";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 28px;
+          line-height: 32px;
+          color: #ffffff;
+        }
+
+        .cardTitle {
+          font-family: "DM Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 24px;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}

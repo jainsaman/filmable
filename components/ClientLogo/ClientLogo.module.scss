@@ -1,0 +1,16 @@
+.clientLogo {
+  width: 140px;
+  height: 140px;
+  background-color: #414141;
+  border: 2px solid #4c4c4c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 0 16px;
+
+  img {
+    width: 80%;
+    height: 60%;
+  }
+}
