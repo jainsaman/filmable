@@ -16,7 +16,7 @@ export default function Partners({}: PartnersProps) {
           <p className={styles.title}>We are backed by the Greats</p>
         </div>
         <div className={styles.clientsContainer}>
-          <Marquee pauseOnHover={true}>
+          <Marquee pauseOnHover={true} speed={32}>
             <ClientLogo src="dharma" />
             <ClientLogo src="excel" />
             <ClientLogo src="yrf" />

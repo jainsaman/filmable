@@ -51,4 +51,30 @@
       background-color: #d22f27;
     }
   }
+
+  @media (max-width: 576px) {
+    padding: 14px;
+    gap: 14px;
+    height: auto;
+
+    .cardImage {
+      height: 64px;
+      width: 64px;
+
+      img {
+        height: 32px;
+        width: auto;
+      }
+    }
+
+    .cardTitle {
+      font-size: 18px;
+      line-height: 28px;
+    }
+
+    .cardContent {
+      font-size: 12px;
+      line-height: 20px;
+    }
+  }
 }
