@@ -1,7 +1,5 @@
-import Image from "next/image";
 import styles from "../styles/Home.module.scss";
 import {
-  Head,
   Navbar,
   Landing,
   Learn,
@@ -17,7 +15,6 @@ import {
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Head title="Filamble" />
       <Navbar />
       <main className={styles.main}>
         <Landing />

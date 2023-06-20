@@ -1,4 +1,3 @@
-import Head from "./Head";
 import Navbar from "./Navbar";
 import Landing from "./Landing";
 import Tagline from "./Tagline";
@@ -14,7 +13,6 @@ import Signup from "./Signup";
 import Footer from "./Footer";
 
 export {
-  Head,
   Navbar,
   Landing,
   Tagline,
