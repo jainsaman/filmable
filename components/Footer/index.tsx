@@ -18,16 +18,16 @@ export default function Footer({}: FooterProps) {
             <Link href="/" passHref>
               Home
             </Link>
-            <Link href="/" passHref>
+            <Link href="#About" passHref>
               About Us
             </Link>
-            <Link href="/" passHref>
+            <Link href="#Features" passHref>
               Features
             </Link>
-            <Link href="/" passHref>
+            <Link href="#Screens" passHref>
               Screens
             </Link>
-            <Link href="/" passHref>
+            <Link href="#Team" passHref>
               Team
             </Link>
           </div>

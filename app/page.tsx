@@ -10,6 +10,7 @@ import {
   Team,
   Signup,
   Footer,
+  Navigation,
 } from "../components";
 
 export default function Home() {
@@ -19,11 +20,16 @@ export default function Home() {
       <main className={styles.main}>
         <Landing />
         <Learn />
+        <Navigation navId="About" />
         <About />
+        <Navigation navId="Features" />
         <Features />
+        <Navigation navId="Screens" />
         <AppScreens />
         <Partners />
+        <Navigation navId="Team" />
         <Team />
+        <Navigation navId="Contact" />
         <Signup />
         <Footer />
       </main>

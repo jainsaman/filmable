@@ -6,6 +6,7 @@ import About from "./About";
 import Features from "./Features";
 import Card from "./Card";
 import AppScreens from "./AppScreens";
+import Navigation from "./Navigation";
 import Partners from "./Partners";
 import ClientLogo from "./ClientLogo";
 import Team from "./Team";
@@ -21,6 +22,7 @@ export {
   Features,
   Card,
   AppScreens,
+  Navigation,
   Partners,
   ClientLogo,
   Team,

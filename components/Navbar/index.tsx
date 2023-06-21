@@ -22,28 +22,28 @@ export default function Navbar({}: NavbarProps) {
         <div className={open ? styles.navbarCollapse : styles.navbarMenu}>
           <div className={styles.navbarLinks}>
             <div className={styles.navbarLink}>
-              <Link href="/about" passHref>
+              <Link href="#About" passHref>
                 About Us
               </Link>
             </div>
             <div className={styles.navbarLink}>
-              <Link href="/about" passHref>
+              <Link href="#Features" passHref>
                 Features
               </Link>
             </div>
             <div className={styles.navbarLink}>
-              <Link href="/about" passHref>
+              <Link href="#Screens" passHref>
                 Screens
               </Link>
             </div>
             <div className={styles.navbarLink}>
-              <Link href="/about" passHref>
+              <Link href="#Team" passHref>
                 Team
               </Link>
             </div>
           </div>
           <div className={styles.navbarButton}>
-            <Link href="/about" passHref>
+            <Link href="#Contact" passHref>
               Contact Us
             </Link>
           </div>
