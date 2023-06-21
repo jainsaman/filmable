@@ -12,12 +12,14 @@ import {
   Footer,
   Navigation,
 } from "../components";
+import { Toaster } from "react-hot-toast";
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Navbar />
       <main className={styles.main}>
+        <Toaster />
         <Landing />
         <Learn />
         <Navigation navId="About" />

@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "filmable-390519",
+  "private_key_id": "6574a8b73e04ebfa920bb591a121ba216cfd1ded",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCxj9FCIrRwIlVa\nMdBPHzpDJa58xS0aUBjvqGvDDWg+Oe0u6U5NNW7Fhoq3yZOKNHOxN+DQjapLeacw\nqN3qMeVRqHR6kWwTBu6xeFcGIBTFpYoHs5rCPs+u2rES1ubCy49ocVM3+IiIJWFL\nmmJbABCjOIcd+TQvz2I7uJXdGRYv39xeNwn5S9GllxCrP4a6TWqI+EawgtdUdbrK\nXe/rOiNASZlTsgWSZTov9mlY2aOXeKfUiJdmWI1xxJiYgLgyaO6aYUdjYpkcwAS2\nx6/lmZUW3kcflj5ucxLubCnFnGL1Xk0OJIEW0i8utjpRYLCs9PuxBsbJJ8KYWUag\n/zJ5tEwxAgMBAAECggEATQKbN5vltlytuBiyyB47HrRRITxDe44Rwp/BXS+LbrGg\n9R+rHkF2caUQtPVwUBi/tLUPhGRs3587rBcRaGmLlAcDvcUkonv3OnF/DOENIUvS\nudRj4qtrV+LxucILA6FV6W59MWFRlfrgX/HthppYnPH/aDiVMcc4S76bAPHIdapf\nb/0sft+nUY11b61twGmkDz/uLdNzOabRV05Cll8TOhkUuuq54CHP/m3eYcB8vL2a\nzH57WrZn9aqGZAVXYFcMlTHfanjW/CesF581o2VcY0o3P9dU6arPXhuS2IHELqFu\nhYTiHRBVXkC3dt06ua4H5SsJq/NbpjWw7pCPFHFnoQKBgQDyLPJ7UGKpAifkZSom\nqQZeQhbr4lCDd5D06kl4Ovlx+43pFDuCm9WUmBBO9wq+AVEAM7nhhXyZTL6lHXw+\nkgxdumrG2XkPBRYZMJzhLMsjuQLAbow/nyTJyfT81SwJHrS1tPnVzXtTo3TOUIxR\nW+HjQxcr5XQjFgie+aSbE6FVwwKBgQC7sqGbl7me78QhkFfUhcpuHXyT0ZF/n9jt\n8/hHOlxrAecAjLUU154gzLtnsnG/Wh1bBKjid7hDlMDRH/uClOtmeF3IaEMDvjAB\nlAshICx47Rvq5aZODskyXaXttoos3+gV8+c7X1125n2InJAycDG0CFEHjXt/k3OJ\nIzKNRDSS+wKBgB+7Ke5kYvj4ElgHtVUpcm8pQ62WkqwXH4Qnqoa5W3PG3Ro8D2wW\nlQ6KOiDOl7a7n2xiWqmk/uVrO9OQoHXmVv507YauegEwzmtwhi2u29MLa8Pg+Dlh\n1cUm1BXIrKNpRY5FbzLHYLBdy3E49pm2a0uGv+N9hhEO0wRZe2riUJJXAoGBAIYi\no1FhPZryuBRQZiQPtNm6otO0ealeH5X1uyGT+IXUZzRCWgpaCLxh8y+pG5bnHIF2\nNAccDYfmX2FT3Na1/ABP1p2ovPOI0B/gn499waptsHzOv2mbMXeX60OVJuvo26AM\nnNwWS+Hz2BRv5rDU8wA4zUd7eZ1zT6bai37fFj9PAoGAefJ/hSLHQS0rEH0unon8\nRP9QGkItKYmQdxW8MSOHRknBSg4QPuIz7WzsdJ9bbpzW6GlAbhWJiy+u7ki7TA/S\n/C5IkjZ/Y424sEfQTB4kyvbhHxkA6VOfxsX54oykYBzIS0+1i8Rso6J57jKqpDZS\nhKIP2iu2GQbFk30Yct/IkUI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "saman-filmable@filmable-390519.iam.gserviceaccount.com",
+  "client_id": "106814419847097363650",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/saman-filmable%40filmable-390519.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

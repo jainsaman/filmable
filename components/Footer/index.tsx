@@ -33,12 +33,15 @@ export default function Footer({}: FooterProps) {
           </div>
           <div className={styles.socialLinks}>
             <div className={styles.socialLink}>
-              <Link href="/" passHref>
+              <Link
+                href="https://www.facebook.com/people/FilmableOnline/100088845230272/?mibextid=LQQJ4d"
+                passHref
+              >
                 <FaFacebookF size={20} />
               </Link>
             </div>
             <div className={styles.socialLink}>
-              <Link href="/" passHref>
+              <Link href="https://www.instagram.com/filmable.online/" passHref>
                 <FaInstagram size={20} />
               </Link>
             </div>
