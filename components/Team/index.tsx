@@ -28,13 +28,13 @@ export default function Team({}: TeamProps) {
             <div className={styles.cardName}>Zeeshan Khan</div>
             <div className={styles.cardTitle}>Co-founder, CMO</div>
           </div>
-          <div className={styles.card}>
+          {/* <div className={styles.card}>
             <div className={styles.cardImg}>
               <img src="CF.png" alt="Co-founder" />
             </div>
             <div className={styles.cardName}>Aquib Khan</div>
             <div className={styles.cardTitle}>Co-founder</div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

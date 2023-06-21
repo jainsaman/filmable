@@ -6,6 +6,7 @@
   background-position: center;
   background-size: cover;
   position: relative;
+  z-index: 99;
 
   @media (max-width: 576px) {
     height: auto;
