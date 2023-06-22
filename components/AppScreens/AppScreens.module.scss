@@ -14,30 +14,13 @@
     gap: 32px;
     height: 100%;
     margin: 0 auto;
-    max-width: 1512px;
+    max-width: 90%;
     transition: all 0.2s ease-in-out;
     background-color: #171717;
     padding: 60px;
 
-    @media (max-width: 1512px) {
-      max-width: 1280px;
-    }
-
-    @media (max-width: 1280px) {
-      max-width: 1024px;
-    }
-
-    @media (max-width: 1024px) {
-      max-width: 992px;
-    }
-
     @media (max-width: 992px) {
-      max-width: 768px;
       align-items: center;
-    }
-
-    @media (max-width: 768px) {
-      max-width: 576px;
     }
 
     @media (max-width: 576px) {
