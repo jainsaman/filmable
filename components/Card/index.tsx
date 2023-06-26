@@ -1,5 +1,4 @@
 import styles from "./Card.module.scss";
-import Tagline from "../Tagline";
 
 type CardProps = {
   src: string;

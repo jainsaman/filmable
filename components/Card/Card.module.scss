@@ -48,6 +48,36 @@
     }
   }
 
+  @media (max-width: 1700px) {
+    height: 340px;
+    padding: 16px;
+    gap: 16px;
+
+    .cardContent {
+      width: 360px;
+    }
+  }
+
+  @media (max-width: 1400px) {
+    height: 300px;
+    padding: 16px;
+    gap: 16px;
+
+    .cardContent {
+      width: 320px;
+    }
+  }
+
+  @media (max-width: 992px) {
+    height: 300px;
+    padding: 16px;
+    gap: 16px;
+
+    .cardContent {
+      width: 300px;
+    }
+  }
+
   @media (max-width: 576px) {
     padding: 14px;
     gap: 14px;
